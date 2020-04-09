@@ -8,7 +8,7 @@ public class MovieGenres {
 	public static void main(String[] args)throws IOException {
 
 		Genre list = new Genre();
-		String filePath = "C:\\Users\\junio\\Downloads\\ml-latest-small(1)\\ml-latest-small\\movies.csv";
+		String filePath = "movies.csv";
 		FileReader fr = new FileReader(filePath);
 		BufferedReader br = new BufferedReader(fr);
 		br.readLine();//skips header
