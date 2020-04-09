@@ -45,6 +45,7 @@ public class MovieGenres {
 		while(br.lines() != null) {
 			String theLine = br.readLine();//read in the first line
 			count++;//shows that the line has been read
+			System.out.println(theLine);
 			String[] theLineParsed = theLine.split(",");//split the line by the commas (,)
 			Integer key = Integer.parseInt(theLineParsed[0]);//the key will be the number
 
